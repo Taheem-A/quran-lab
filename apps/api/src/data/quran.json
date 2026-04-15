@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "الفاتحة",
-    "transliteration": "Al-Fatihah",
+    "englishName": "Al-Fatihah",
     "type": "meccan",
-    "total_verses": 7,
+    "verseCount": 7,
     "verses": [
       { "id": 1, "text": "بِسۡمِ ٱللَّهِ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ" },
       { "id": 2, "text": "ٱلۡحَمۡدُ لِلَّهِ رَبِّ ٱلۡعَٰلَمِينَ" },
@@ -21,9 +21,9 @@
   {
     "id": 2,
     "name": "البقرة",
-    "transliteration": "Al-Baqarah",
+    "englishName": "Al-Baqarah",
     "type": "medinan",
-    "total_verses": 286,
+    "verseCount": 286,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       {
@@ -1168,9 +1168,9 @@
   {
     "id": 3,
     "name": "آل عمران",
-    "transliteration": "Ali 'Imran",
+    "englishName": "Ali 'Imran",
     "type": "medinan",
-    "total_verses": 200,
+    "verseCount": 200,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       {
@@ -1974,9 +1974,9 @@
   {
     "id": 4,
     "name": "النساء",
-    "transliteration": "An-Nisa",
+    "englishName": "An-Nisa",
     "type": "medinan",
-    "total_verses": 176,
+    "verseCount": 176,
     "verses": [
       {
         "id": 1,
@@ -2684,9 +2684,9 @@
   {
     "id": 5,
     "name": "المائدة",
-    "transliteration": "Al-Ma'idah",
+    "englishName": "Al-Ma'idah",
     "type": "medinan",
-    "total_verses": 120,
+    "verseCount": 120,
     "verses": [
       {
         "id": 1,
@@ -3173,9 +3173,9 @@
   {
     "id": 6,
     "name": "الأنعام",
-    "transliteration": "Al-An'am",
+    "englishName": "Al-An'am",
     "type": "meccan",
-    "total_verses": 165,
+    "verseCount": 165,
     "verses": [
       {
         "id": 1,
@@ -3842,9 +3842,9 @@
   {
     "id": 7,
     "name": "الأعراف",
-    "transliteration": "Al-A'raf",
+    "englishName": "Al-A'raf",
     "type": "meccan",
-    "total_verses": 206,
+    "verseCount": 206,
     "verses": [
       { "id": 1, "text": "الٓمٓصٓ" },
       {
@@ -4642,9 +4642,9 @@
   {
     "id": 8,
     "name": "الأنفال",
-    "transliteration": "Al-Anfal",
+    "englishName": "Al-Anfal",
     "type": "medinan",
-    "total_verses": 75,
+    "verseCount": 75,
     "verses": [
       {
         "id": 1,
@@ -4951,9 +4951,9 @@
   {
     "id": 9,
     "name": "التوبة",
-    "transliteration": "At-Tawbah",
+    "englishName": "At-Tawbah",
     "type": "medinan",
-    "total_verses": 129,
+    "verseCount": 129,
     "verses": [
       {
         "id": 1,
@@ -5476,9 +5476,9 @@
   {
     "id": 10,
     "name": "يونس",
-    "transliteration": "Yunus",
+    "englishName": "Yunus",
     "type": "meccan",
-    "total_verses": 109,
+    "verseCount": 109,
     "verses": [
       { "id": 1, "text": "الٓرۚ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡحَكِيمِ" },
       {
@@ -5912,9 +5912,9 @@
   {
     "id": 11,
     "name": "هود",
-    "transliteration": "Hud",
+    "englishName": "Hud",
     "type": "meccan",
-    "total_verses": 123,
+    "verseCount": 123,
     "verses": [
       {
         "id": 1,
@@ -6404,9 +6404,9 @@
   {
     "id": 12,
     "name": "يوسف",
-    "transliteration": "Yusuf",
+    "englishName": "Yusuf",
     "type": "meccan",
-    "total_verses": 111,
+    "verseCount": 111,
     "verses": [
       { "id": 1, "text": "الٓرۚ تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡمُبِينِ" },
       {
@@ -6851,9 +6851,9 @@
   {
     "id": 13,
     "name": "الرعد",
-    "transliteration": "Ar-Ra'd",
+    "englishName": "Ar-Ra'd",
     "type": "medinan",
-    "total_verses": 43,
+    "verseCount": 43,
     "verses": [
       {
         "id": 1,
@@ -7032,9 +7032,9 @@
   {
     "id": 14,
     "name": "ابراهيم",
-    "transliteration": "Ibrahim",
+    "englishName": "Ibrahim",
     "type": "meccan",
-    "total_verses": 52,
+    "verseCount": 52,
     "verses": [
       {
         "id": 1,
@@ -7240,9 +7240,9 @@
   {
     "id": 15,
     "name": "الحجر",
-    "transliteration": "Al-Hijr",
+    "englishName": "Al-Hijr",
     "type": "meccan",
-    "total_verses": 99,
+    "verseCount": 99,
     "verses": [
       {
         "id": 1,
@@ -7540,9 +7540,9 @@
   {
     "id": 16,
     "name": "النحل",
-    "transliteration": "An-Nahl",
+    "englishName": "An-Nahl",
     "type": "meccan",
-    "total_verses": 128,
+    "verseCount": 128,
     "verses": [
       {
         "id": 1,
@@ -8055,9 +8055,9 @@
   {
     "id": 17,
     "name": "الإسراء",
-    "transliteration": "Al-Isra",
+    "englishName": "Al-Isra",
     "type": "meccan",
-    "total_verses": 111,
+    "verseCount": 111,
     "verses": [
       {
         "id": 1,
@@ -8505,9 +8505,9 @@
   {
     "id": 18,
     "name": "الكهف",
-    "transliteration": "Al-Kahf",
+    "englishName": "Al-Kahf",
     "type": "meccan",
-    "total_verses": 110,
+    "verseCount": 110,
     "verses": [
       {
         "id": 1,
@@ -8936,9 +8936,9 @@
   {
     "id": 19,
     "name": "مريم",
-    "transliteration": "Maryam",
+    "englishName": "Maryam",
     "type": "meccan",
-    "total_verses": 98,
+    "verseCount": 98,
     "verses": [
       { "id": 1, "text": "كٓهيعٓصٓ" },
       { "id": 2, "text": "ذِكۡرُ رَحۡمَتِ رَبِّكَ عَبۡدَهُۥ زَكَرِيَّآ" },
@@ -9304,9 +9304,9 @@
   {
     "id": 20,
     "name": "طه",
-    "transliteration": "Taha",
+    "englishName": "Taha",
     "type": "meccan",
-    "total_verses": 135,
+    "verseCount": 135,
     "verses": [
       { "id": 1, "text": "طه" },
       { "id": 2, "text": "مَآ أَنزَلۡنَا عَلَيۡكَ ٱلۡقُرۡءَانَ لِتَشۡقَىٰٓ" },
@@ -9733,9 +9733,9 @@
   {
     "id": 21,
     "name": "الأنبياء",
-    "transliteration": "Al-Anbya",
+    "englishName": "Al-Anbya",
     "type": "meccan",
-    "total_verses": 112,
+    "verseCount": 112,
     "verses": [
       {
         "id": 1,
@@ -10178,9 +10178,9 @@
   {
     "id": 22,
     "name": "الحج",
-    "transliteration": "Al-Hajj",
+    "englishName": "Al-Hajj",
     "type": "medinan",
-    "total_verses": 78,
+    "verseCount": 78,
     "verses": [
       {
         "id": 1,
@@ -10490,9 +10490,9 @@
   {
     "id": 23,
     "name": "المؤمنون",
-    "transliteration": "Al-Mu'minun",
+    "englishName": "Al-Mu'minun",
     "type": "meccan",
-    "total_verses": 118,
+    "verseCount": 118,
     "verses": [
       { "id": 1, "text": "قَدۡ أَفۡلَحَ ٱلۡمُؤۡمِنُونَ" },
       { "id": 2, "text": "ٱلَّذِينَ هُمۡ فِي صَلَاتِهِمۡ خَٰشِعُونَ" },
@@ -10890,9 +10890,9 @@
   {
     "id": 24,
     "name": "النور",
-    "transliteration": "An-Nur",
+    "englishName": "An-Nur",
     "type": "medinan",
-    "total_verses": 64,
+    "verseCount": 64,
     "verses": [
       {
         "id": 1,
@@ -11155,9 +11155,9 @@
   {
     "id": 25,
     "name": "الفرقان",
-    "transliteration": "Al-Furqan",
+    "englishName": "Al-Furqan",
     "type": "meccan",
-    "total_verses": 77,
+    "verseCount": 77,
     "verses": [
       {
         "id": 1,
@@ -11463,9 +11463,9 @@
   {
     "id": 26,
     "name": "الشعراء",
-    "transliteration": "Ash-Shu'ara",
+    "englishName": "Ash-Shu'ara",
     "type": "meccan",
-    "total_verses": 227,
+    "verseCount": 227,
     "verses": [
       { "id": 1, "text": "طسٓمٓ" },
       { "id": 2, "text": "تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡمُبِينِ" },
@@ -11978,9 +11978,9 @@
   {
     "id": 27,
     "name": "النمل",
-    "transliteration": "An-Naml",
+    "englishName": "An-Naml",
     "type": "meccan",
-    "total_verses": 93,
+    "verseCount": 93,
     "verses": [
       {
         "id": 1,
@@ -12350,9 +12350,9 @@
   {
     "id": 28,
     "name": "القصص",
-    "transliteration": "Al-Qasas",
+    "englishName": "Al-Qasas",
     "type": "meccan",
-    "total_verses": 88,
+    "verseCount": 88,
     "verses": [
       { "id": 1, "text": "طسٓمٓ" },
       { "id": 2, "text": "تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡمُبِينِ" },
@@ -12705,9 +12705,9 @@
   {
     "id": 29,
     "name": "العنكبوت",
-    "transliteration": "Al-'Ankabut",
+    "englishName": "Al-'Ankabut",
     "type": "meccan",
-    "total_verses": 69,
+    "verseCount": 69,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       {
@@ -12987,9 +12987,9 @@
   {
     "id": 30,
     "name": "الروم",
-    "transliteration": "Ar-Rum",
+    "englishName": "Ar-Rum",
     "type": "meccan",
-    "total_verses": 60,
+    "verseCount": 60,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       { "id": 2, "text": "غُلِبَتِ ٱلرُّومُ" },
@@ -13230,9 +13230,9 @@
   {
     "id": 31,
     "name": "لقمان",
-    "transliteration": "Luqman",
+    "englishName": "Luqman",
     "type": "meccan",
-    "total_verses": 34,
+    "verseCount": 34,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       { "id": 2, "text": "تِلۡكَ ءَايَٰتُ ٱلۡكِتَٰبِ ٱلۡحَكِيمِ" },
@@ -13366,9 +13366,9 @@
   {
     "id": 32,
     "name": "السجدة",
-    "transliteration": "As-Sajdah",
+    "englishName": "As-Sajdah",
     "type": "meccan",
-    "total_verses": 30,
+    "verseCount": 30,
     "verses": [
       { "id": 1, "text": "الٓمٓ" },
       {
@@ -13492,9 +13492,9 @@
   {
     "id": 33,
     "name": "الأحزاب",
-    "transliteration": "Al-Ahzab",
+    "englishName": "Al-Ahzab",
     "type": "medinan",
-    "total_verses": 73,
+    "verseCount": 73,
     "verses": [
       {
         "id": 1,
@@ -13790,9 +13790,9 @@
   {
     "id": 34,
     "name": "سبإ",
-    "transliteration": "Saba",
+    "englishName": "Saba",
     "type": "meccan",
-    "total_verses": 54,
+    "verseCount": 54,
     "verses": [
       {
         "id": 1,
@@ -14015,9 +14015,9 @@
   {
     "id": 35,
     "name": "فاطر",
-    "transliteration": "Fatir",
+    "englishName": "Fatir",
     "type": "meccan",
-    "total_verses": 45,
+    "verseCount": 45,
     "verses": [
       {
         "id": 1,
@@ -14186,9 +14186,9 @@
   {
     "id": 36,
     "name": "يس",
-    "transliteration": "Ya-Sin",
+    "englishName": "Ya-Sin",
     "type": "meccan",
-    "total_verses": 83,
+    "verseCount": 83,
     "verses": [
       { "id": 1, "text": "يسٓ" },
       { "id": 2, "text": "وَٱلۡقُرۡءَانِ ٱلۡحَكِيمِ" },
@@ -14479,9 +14479,9 @@
   {
     "id": 37,
     "name": "الصافات",
-    "transliteration": "As-Saffat",
+    "englishName": "As-Saffat",
     "type": "meccan",
-    "total_verses": 182,
+    "verseCount": 182,
     "verses": [
       { "id": 1, "text": "وَٱلصَّـٰٓفَّـٰتِ صَفّٗا" },
       { "id": 2, "text": "فَٱلزَّـٰجِرَٰتِ زَجۡرٗا" },
@@ -14805,9 +14805,9 @@
   {
     "id": 38,
     "name": "ص",
-    "transliteration": "Sad",
+    "englishName": "Sad",
     "type": "meccan",
-    "total_verses": 88,
+    "verseCount": 88,
     "verses": [
       { "id": 1, "text": "صٓۚ وَٱلۡقُرۡءَانِ ذِي ٱلذِّكۡرِ" },
       { "id": 2, "text": "بَلِ ٱلَّذِينَ كَفَرُواْ فِي عِزَّةٖ وَشِقَاقٖ" },
@@ -15091,9 +15091,9 @@
   {
     "id": 39,
     "name": "الزمر",
-    "transliteration": "Az-Zumar",
+    "englishName": "Az-Zumar",
     "type": "meccan",
-    "total_verses": 75,
+    "verseCount": 75,
     "verses": [
       {
         "id": 1,
@@ -15388,9 +15388,9 @@
   {
     "id": 40,
     "name": "غافر",
-    "transliteration": "Ghafir",
+    "englishName": "Ghafir",
     "type": "meccan",
-    "total_verses": 85,
+    "verseCount": 85,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       {
@@ -15725,9 +15725,9 @@
   {
     "id": 41,
     "name": "فصلت",
-    "transliteration": "Fussilat",
+    "englishName": "Fussilat",
     "type": "meccan",
-    "total_verses": 54,
+    "verseCount": 54,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       { "id": 2, "text": "تَنزِيلٞ مِّنَ ٱلرَّحۡمَٰنِ ٱلرَّحِيمِ" },
@@ -15941,9 +15941,9 @@
   {
     "id": 42,
     "name": "الشورى",
-    "transliteration": "Ash-Shuraa",
+    "englishName": "Ash-Shuraa",
     "type": "meccan",
-    "total_verses": 53,
+    "verseCount": 53,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       { "id": 2, "text": "عٓسٓقٓ" },
@@ -16156,9 +16156,9 @@
   {
     "id": 43,
     "name": "الزخرف",
-    "transliteration": "Az-Zukhruf",
+    "englishName": "Az-Zukhruf",
     "type": "meccan",
-    "total_verses": 89,
+    "verseCount": 89,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       { "id": 2, "text": "وَٱلۡكِتَٰبِ ٱلۡمُبِينِ" },
@@ -16497,9 +16497,9 @@
   {
     "id": 44,
     "name": "الدخان",
-    "transliteration": "Ad-Dukhan",
+    "englishName": "Ad-Dukhan",
     "type": "meccan",
-    "total_verses": 59,
+    "verseCount": 59,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       { "id": 2, "text": "وَٱلۡكِتَٰبِ ٱلۡمُبِينِ" },
@@ -16664,9 +16664,9 @@
   {
     "id": 45,
     "name": "الجاثية",
-    "transliteration": "Al-Jathiyah",
+    "englishName": "Al-Jathiyah",
     "type": "meccan",
-    "total_verses": 37,
+    "verseCount": 37,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       {
@@ -16815,9 +16815,9 @@
   {
     "id": 46,
     "name": "الأحقاف",
-    "transliteration": "Al-Ahqaf",
+    "englishName": "Al-Ahqaf",
     "type": "meccan",
-    "total_verses": 35,
+    "verseCount": 35,
     "verses": [
       { "id": 1, "text": "حمٓ" },
       {
@@ -16961,9 +16961,9 @@
   {
     "id": 47,
     "name": "محمد",
-    "transliteration": "Muhammad",
+    "englishName": "Muhammad",
     "type": "medinan",
-    "total_verses": 38,
+    "verseCount": 38,
     "verses": [
       {
         "id": 1,
@@ -17116,9 +17116,9 @@
   {
     "id": 48,
     "name": "الفتح",
-    "transliteration": "Al-Fath",
+    "englishName": "Al-Fath",
     "type": "medinan",
-    "total_verses": 29,
+    "verseCount": 29,
     "verses": [
       { "id": 1, "text": "إِنَّا فَتَحۡنَا لَكَ فَتۡحٗا مُّبِينٗا" },
       {
@@ -17235,9 +17235,9 @@
   {
     "id": 49,
     "name": "الحجرات",
-    "transliteration": "Al-Hujurat",
+    "englishName": "Al-Hujurat",
     "type": "medinan",
-    "total_verses": 18,
+    "verseCount": 18,
     "verses": [
       {
         "id": 1,
@@ -17316,9 +17316,9 @@
   {
     "id": 50,
     "name": "ق",
-    "transliteration": "Qaf",
+    "englishName": "Qaf",
     "type": "meccan",
-    "total_verses": 45,
+    "verseCount": 45,
     "verses": [
       { "id": 1, "text": "قٓۚ وَٱلۡقُرۡءَانِ ٱلۡمَجِيدِ" },
       {
@@ -17472,9 +17472,9 @@
   {
     "id": 51,
     "name": "الذاريات",
-    "transliteration": "Adh-Dhariyat",
+    "englishName": "Adh-Dhariyat",
     "type": "meccan",
-    "total_verses": 60,
+    "verseCount": 60,
     "verses": [
       { "id": 1, "text": "وَٱلذَّـٰرِيَٰتِ ذَرۡوٗا" },
       { "id": 2, "text": "فَٱلۡحَٰمِلَٰتِ وِقۡرٗا" },
@@ -17643,9 +17643,9 @@
   {
     "id": 52,
     "name": "الطور",
-    "transliteration": "At-Tur",
+    "englishName": "At-Tur",
     "type": "meccan",
-    "total_verses": 49,
+    "verseCount": 49,
     "verses": [
       { "id": 1, "text": "وَٱلطُّورِ" },
       { "id": 2, "text": "وَكِتَٰبٖ مَّسۡطُورٖ" },
@@ -17794,9 +17794,9 @@
   {
     "id": 53,
     "name": "النجم",
-    "transliteration": "An-Najm",
+    "englishName": "An-Najm",
     "type": "meccan",
-    "total_verses": 62,
+    "verseCount": 62,
     "verses": [
       { "id": 1, "text": "وَٱلنَّجۡمِ إِذَا هَوَىٰ" },
       { "id": 2, "text": "مَا ضَلَّ صَاحِبُكُمۡ وَمَا غَوَىٰ" },
@@ -17895,9 +17895,9 @@
   {
     "id": 54,
     "name": "القمر",
-    "transliteration": "Al-Qamar",
+    "englishName": "Al-Qamar",
     "type": "meccan",
-    "total_verses": 55,
+    "verseCount": 55,
     "verses": [
       { "id": 1, "text": "ٱقۡتَرَبَتِ ٱلسَّاعَةُ وَٱنشَقَّ ٱلۡقَمَرُ" },
       {
@@ -18055,9 +18055,9 @@
   {
     "id": 55,
     "name": "الرحمن",
-    "transliteration": "Ar-Rahman",
+    "englishName": "Ar-Rahman",
     "type": "medinan",
-    "total_verses": 78,
+    "verseCount": 78,
     "verses": [
       { "id": 1, "text": "ٱلرَّحۡمَٰنُ" },
       { "id": 2, "text": "عَلَّمَ ٱلۡقُرۡءَانَ" },
@@ -18184,9 +18184,9 @@
   {
     "id": 56,
     "name": "الواقعة",
-    "transliteration": "Al-Waqi'ah",
+    "englishName": "Al-Waqi'ah",
     "type": "meccan",
-    "total_verses": 96,
+    "verseCount": 96,
     "verses": [
       { "id": 1, "text": "إِذَا وَقَعَتِ ٱلۡوَاقِعَةُ" },
       { "id": 2, "text": "لَيۡسَ لِوَقۡعَتِهَا كَاذِبَةٌ" },
@@ -18337,9 +18337,9 @@
   {
     "id": 57,
     "name": "الحديد",
-    "transliteration": "Al-Hadid",
+    "englishName": "Al-Hadid",
     "type": "medinan",
-    "total_verses": 29,
+    "verseCount": 29,
     "verses": [
       {
         "id": 1,
@@ -18462,9 +18462,9 @@
   {
     "id": 58,
     "name": "المجادلة",
-    "transliteration": "Al-Mujadila",
+    "englishName": "Al-Mujadila",
     "type": "medinan",
-    "total_verses": 22,
+    "verseCount": 22,
     "verses": [
       {
         "id": 1,
@@ -18559,9 +18559,9 @@
   {
     "id": 59,
     "name": "الحشر",
-    "transliteration": "Al-Hashr",
+    "englishName": "Al-Hashr",
     "type": "medinan",
-    "total_verses": 24,
+    "verseCount": 24,
     "verses": [
       {
         "id": 1,
@@ -18664,9 +18664,9 @@
   {
     "id": 60,
     "name": "الممتحنة",
-    "transliteration": "Al-Mumtahanah",
+    "englishName": "Al-Mumtahanah",
     "type": "medinan",
-    "total_verses": 13,
+    "verseCount": 13,
     "verses": [
       {
         "id": 1,
@@ -18725,9 +18725,9 @@
   {
     "id": 61,
     "name": "الصف",
-    "transliteration": "As-Saf",
+    "englishName": "As-Saf",
     "type": "medinan",
-    "total_verses": 14,
+    "verseCount": 14,
     "verses": [
       {
         "id": 1,
@@ -18790,9 +18790,9 @@
   {
     "id": 62,
     "name": "الجمعة",
-    "transliteration": "Al-Jumu'ah",
+    "englishName": "Al-Jumu'ah",
     "type": "medinan",
-    "total_verses": 11,
+    "verseCount": 11,
     "verses": [
       {
         "id": 1,
@@ -18843,9 +18843,9 @@
   {
     "id": 63,
     "name": "المنافقون",
-    "transliteration": "Al-Munafiqun",
+    "englishName": "Al-Munafiqun",
     "type": "medinan",
-    "total_verses": 11,
+    "verseCount": 11,
     "verses": [
       {
         "id": 1,
@@ -18896,9 +18896,9 @@
   {
     "id": 64,
     "name": "التغابن",
-    "transliteration": "At-Taghabun",
+    "englishName": "At-Taghabun",
     "type": "medinan",
-    "total_verses": 18,
+    "verseCount": 18,
     "verses": [
       {
         "id": 1,
@@ -18977,9 +18977,9 @@
   {
     "id": 65,
     "name": "الطلاق",
-    "transliteration": "At-Talaq",
+    "englishName": "At-Talaq",
     "type": "medinan",
-    "total_verses": 12,
+    "verseCount": 12,
     "verses": [
       {
         "id": 1,
@@ -19034,9 +19034,9 @@
   {
     "id": 66,
     "name": "التحريم",
-    "transliteration": "At-Tahrim",
+    "englishName": "At-Tahrim",
     "type": "medinan",
-    "total_verses": 12,
+    "verseCount": 12,
     "verses": [
       {
         "id": 1,
@@ -19091,9 +19091,9 @@
   {
     "id": 67,
     "name": "الملك",
-    "transliteration": "Al-Mulk",
+    "englishName": "Al-Mulk",
     "type": "meccan",
-    "total_verses": 30,
+    "verseCount": 30,
     "verses": [
       {
         "id": 1,
@@ -19220,9 +19220,9 @@
   {
     "id": 68,
     "name": "القلم",
-    "transliteration": "Al-Qalam",
+    "englishName": "Al-Qalam",
     "type": "meccan",
-    "total_verses": 52,
+    "verseCount": 52,
     "verses": [
       { "id": 1, "text": "نٓۚ وَٱلۡقَلَمِ وَمَا يَسۡطُرُونَ" },
       { "id": 2, "text": "مَآ أَنتَ بِنِعۡمَةِ رَبِّكَ بِمَجۡنُونٖ" },
@@ -19347,9 +19347,9 @@
   {
     "id": 69,
     "name": "الحاقة",
-    "transliteration": "Al-Haqqah",
+    "englishName": "Al-Haqqah",
     "type": "meccan",
-    "total_verses": 52,
+    "verseCount": 52,
     "verses": [
       { "id": 1, "text": "ٱلۡحَآقَّةُ" },
       { "id": 2, "text": "مَا ٱلۡحَآقَّةُ" },
@@ -19456,9 +19456,9 @@
   {
     "id": 70,
     "name": "المعارج",
-    "transliteration": "Al-Ma'arij",
+    "englishName": "Al-Ma'arij",
     "type": "meccan",
-    "total_verses": 44,
+    "verseCount": 44,
     "verses": [
       { "id": 1, "text": "سَأَلَ سَآئِلُۢ بِعَذَابٖ وَاقِعٖ" },
       { "id": 2, "text": "لِّلۡكَٰفِرِينَ لَيۡسَ لَهُۥ دَافِعٞ" },
@@ -19545,9 +19545,9 @@
   {
     "id": 71,
     "name": "نوح",
-    "transliteration": "Nuh",
+    "englishName": "Nuh",
     "type": "meccan",
-    "total_verses": 28,
+    "verseCount": 28,
     "verses": [
       {
         "id": 1,
@@ -19633,9 +19633,9 @@
   {
     "id": 72,
     "name": "الجن",
-    "transliteration": "Al-Jinn",
+    "englishName": "Al-Jinn",
     "type": "meccan",
-    "total_verses": 28,
+    "verseCount": 28,
     "verses": [
       {
         "id": 1,
@@ -19754,9 +19754,9 @@
   {
     "id": 73,
     "name": "المزمل",
-    "transliteration": "Al-Muzzammil",
+    "englishName": "Al-Muzzammil",
     "type": "meccan",
-    "total_verses": 20,
+    "verseCount": 20,
     "verses": [
       { "id": 1, "text": "يَـٰٓأَيُّهَا ٱلۡمُزَّمِّلُ" },
       { "id": 2, "text": "قُمِ ٱلَّيۡلَ إِلَّا قَلِيلٗا" },
@@ -19822,9 +19822,9 @@
   {
     "id": 74,
     "name": "المدثر",
-    "transliteration": "Al-Muddaththir",
+    "englishName": "Al-Muddaththir",
     "type": "meccan",
-    "total_verses": 56,
+    "verseCount": 56,
     "verses": [
       { "id": 1, "text": "يَـٰٓأَيُّهَا ٱلۡمُدَّثِّرُ" },
       { "id": 2, "text": "قُمۡ فَأَنذِرۡ" },
@@ -19899,9 +19899,9 @@
   {
     "id": 75,
     "name": "القيامة",
-    "transliteration": "Al-Qiyamah",
+    "englishName": "Al-Qiyamah",
     "type": "meccan",
-    "total_verses": 40,
+    "verseCount": 40,
     "verses": [
       { "id": 1, "text": "لَآ أُقۡسِمُ بِيَوۡمِ ٱلۡقِيَٰمَةِ" },
       { "id": 2, "text": "وَلَآ أُقۡسِمُ بِٱلنَّفۡسِ ٱللَّوَّامَةِ" },
@@ -19960,9 +19960,9 @@
   {
     "id": 76,
     "name": "الانسان",
-    "transliteration": "Al-Insan",
+    "englishName": "Al-Insan",
     "type": "medinan",
-    "total_verses": 31,
+    "verseCount": 31,
     "verses": [
       {
         "id": 1,
@@ -20081,9 +20081,9 @@
   {
     "id": 77,
     "name": "المرسلات",
-    "transliteration": "Al-Mursalat",
+    "englishName": "Al-Mursalat",
     "type": "meccan",
-    "total_verses": 50,
+    "verseCount": 50,
     "verses": [
       { "id": 1, "text": "وَٱلۡمُرۡسَلَٰتِ عُرۡفٗا" },
       { "id": 2, "text": "فَٱلۡعَٰصِفَٰتِ عَصۡفٗا" },
@@ -20152,9 +20152,9 @@
   {
     "id": 78,
     "name": "النبإ",
-    "transliteration": "An-Naba",
+    "englishName": "An-Naba",
     "type": "meccan",
-    "total_verses": 40,
+    "verseCount": 40,
     "verses": [
       { "id": 1, "text": "عَمَّ يَتَسَآءَلُونَ" },
       { "id": 2, "text": "عَنِ ٱلنَّبَإِ ٱلۡعَظِيمِ" },
@@ -20216,9 +20216,9 @@
   {
     "id": 79,
     "name": "النازعات",
-    "transliteration": "An-Nazi'at",
+    "englishName": "An-Nazi'at",
     "type": "meccan",
-    "total_verses": 46,
+    "verseCount": 46,
     "verses": [
       { "id": 1, "text": "وَٱلنَّـٰزِعَٰتِ غَرۡقٗا" },
       { "id": 2, "text": "وَٱلنَّـٰشِطَٰتِ نَشۡطٗا" },
@@ -20292,9 +20292,9 @@
   {
     "id": 80,
     "name": "عبس",
-    "transliteration": "'Abasa",
+    "englishName": "'Abasa",
     "type": "meccan",
-    "total_verses": 42,
+    "verseCount": 42,
     "verses": [
       { "id": 1, "text": "عَبَسَ وَتَوَلَّىٰٓ" },
       { "id": 2, "text": "أَن جَآءَهُ ٱلۡأَعۡمَىٰ" },
@@ -20346,9 +20346,9 @@
   {
     "id": 81,
     "name": "التكوير",
-    "transliteration": "At-Takwir",
+    "englishName": "At-Takwir",
     "type": "meccan",
-    "total_verses": 29,
+    "verseCount": 29,
     "verses": [
       { "id": 1, "text": "إِذَا ٱلشَّمۡسُ كُوِّرَتۡ" },
       { "id": 2, "text": "وَإِذَا ٱلنُّجُومُ ٱنكَدَرَتۡ" },
@@ -20387,9 +20387,9 @@
   {
     "id": 82,
     "name": "الإنفطار",
-    "transliteration": "Al-Infitar",
+    "englishName": "Al-Infitar",
     "type": "meccan",
-    "total_verses": 19,
+    "verseCount": 19,
     "verses": [
       { "id": 1, "text": "إِذَا ٱلسَّمَآءُ ٱنفَطَرَتۡ" },
       { "id": 2, "text": "وَإِذَا ٱلۡكَوَاكِبُ ٱنتَثَرَتۡ" },
@@ -20421,9 +20421,9 @@
   {
     "id": 83,
     "name": "المطففين",
-    "transliteration": "Al-Mutaffifin",
+    "englishName": "Al-Mutaffifin",
     "type": "meccan",
-    "total_verses": 36,
+    "verseCount": 36,
     "verses": [
       { "id": 1, "text": "وَيۡلٞ لِّلۡمُطَفِّفِينَ" },
       {
@@ -20502,9 +20502,9 @@
   {
     "id": 84,
     "name": "الإنشقاق",
-    "transliteration": "Al-Inshiqaq",
+    "englishName": "Al-Inshiqaq",
     "type": "meccan",
-    "total_verses": 25,
+    "verseCount": 25,
     "verses": [
       { "id": 1, "text": "إِذَا ٱلسَّمَآءُ ٱنشَقَّتۡ" },
       { "id": 2, "text": "وَأَذِنَتۡ لِرَبِّهَا وَحُقَّتۡ" },
@@ -20548,9 +20548,9 @@
   {
     "id": 85,
     "name": "البروج",
-    "transliteration": "Al-Buruj",
+    "englishName": "Al-Buruj",
     "type": "meccan",
-    "total_verses": 22,
+    "verseCount": 22,
     "verses": [
       { "id": 1, "text": "وَٱلسَّمَآءِ ذَاتِ ٱلۡبُرُوجِ" },
       { "id": 2, "text": "وَٱلۡيَوۡمِ ٱلۡمَوۡعُودِ" },
@@ -20594,9 +20594,9 @@
   {
     "id": 86,
     "name": "الطارق",
-    "transliteration": "At-Tariq",
+    "englishName": "At-Tariq",
     "type": "meccan",
-    "total_verses": 17,
+    "verseCount": 17,
     "verses": [
       { "id": 1, "text": "وَٱلسَّمَآءِ وَٱلطَّارِقِ" },
       { "id": 2, "text": "وَمَآ أَدۡرَىٰكَ مَا ٱلطَّارِقُ" },
@@ -20620,9 +20620,9 @@
   {
     "id": 87,
     "name": "الأعلى",
-    "transliteration": "Al-A'la",
+    "englishName": "Al-A'la",
     "type": "meccan",
-    "total_verses": 19,
+    "verseCount": 19,
     "verses": [
       { "id": 1, "text": "سَبِّحِ ٱسۡمَ رَبِّكَ ٱلۡأَعۡلَى" },
       { "id": 2, "text": "ٱلَّذِي خَلَقَ فَسَوَّىٰ" },
@@ -20651,9 +20651,9 @@
   {
     "id": 88,
     "name": "الغاشية",
-    "transliteration": "Al-Ghashiyah",
+    "englishName": "Al-Ghashiyah",
     "type": "meccan",
-    "total_verses": 26,
+    "verseCount": 26,
     "verses": [
       { "id": 1, "text": "هَلۡ أَتَىٰكَ حَدِيثُ ٱلۡغَٰشِيَةِ" },
       { "id": 2, "text": "وُجُوهٞ يَوۡمَئِذٍ خَٰشِعَةٌ" },
@@ -20689,9 +20689,9 @@
   {
     "id": 89,
     "name": "الفجر",
-    "transliteration": "Al-Fajr",
+    "englishName": "Al-Fajr",
     "type": "meccan",
-    "total_verses": 30,
+    "verseCount": 30,
     "verses": [
       { "id": 1, "text": "وَٱلۡفَجۡرِ" },
       { "id": 2, "text": "وَلَيَالٍ عَشۡرٖ" },
@@ -20737,9 +20737,9 @@
   {
     "id": 90,
     "name": "البلد",
-    "transliteration": "Al-Balad",
+    "englishName": "Al-Balad",
     "type": "meccan",
-    "total_verses": 20,
+    "verseCount": 20,
     "verses": [
       { "id": 1, "text": "لَآ أُقۡسِمُ بِهَٰذَا ٱلۡبَلَدِ" },
       { "id": 2, "text": "وَأَنتَ حِلُّۢ بِهَٰذَا ٱلۡبَلَدِ" },
@@ -20772,9 +20772,9 @@
   {
     "id": 91,
     "name": "الشمس",
-    "transliteration": "Ash-Shams",
+    "englishName": "Ash-Shams",
     "type": "meccan",
-    "total_verses": 15,
+    "verseCount": 15,
     "verses": [
       { "id": 1, "text": "وَٱلشَّمۡسِ وَضُحَىٰهَا" },
       { "id": 2, "text": "وَٱلۡقَمَرِ إِذَا تَلَىٰهَا" },
@@ -20802,9 +20802,9 @@
   {
     "id": 92,
     "name": "الليل",
-    "transliteration": "Al-Layl",
+    "englishName": "Al-Layl",
     "type": "meccan",
-    "total_verses": 21,
+    "verseCount": 21,
     "verses": [
       { "id": 1, "text": "وَٱلَّيۡلِ إِذَا يَغۡشَىٰ" },
       { "id": 2, "text": "وَٱلنَّهَارِ إِذَا تَجَلَّىٰ" },
@@ -20832,9 +20832,9 @@
   {
     "id": 93,
     "name": "الضحى",
-    "transliteration": "Ad-Duhaa",
+    "englishName": "Ad-Duhaa",
     "type": "meccan",
-    "total_verses": 11,
+    "verseCount": 11,
     "verses": [
       { "id": 1, "text": "وَٱلضُّحَىٰ" },
       { "id": 2, "text": "وَٱلَّيۡلِ إِذَا سَجَىٰ" },
@@ -20852,9 +20852,9 @@
   {
     "id": 94,
     "name": "الشرح",
-    "transliteration": "Ash-Sharh",
+    "englishName": "Ash-Sharh",
     "type": "meccan",
-    "total_verses": 8,
+    "verseCount": 8,
     "verses": [
       { "id": 1, "text": "أَلَمۡ نَشۡرَحۡ لَكَ صَدۡرَكَ" },
       { "id": 2, "text": "وَوَضَعۡنَا عَنكَ وِزۡرَكَ" },
@@ -20869,9 +20869,9 @@
   {
     "id": 95,
     "name": "التين",
-    "transliteration": "At-Tin",
+    "englishName": "At-Tin",
     "type": "meccan",
-    "total_verses": 8,
+    "verseCount": 8,
     "verses": [
       { "id": 1, "text": "وَٱلتِّينِ وَٱلزَّيۡتُونِ" },
       { "id": 2, "text": "وَطُورِ سِينِينَ" },
@@ -20892,9 +20892,9 @@
   {
     "id": 96,
     "name": "العلق",
-    "transliteration": "Al-'Alaq",
+    "englishName": "Al-'Alaq",
     "type": "meccan",
-    "total_verses": 19,
+    "verseCount": 19,
     "verses": [
       { "id": 1, "text": "ٱقۡرَأۡ بِٱسۡمِ رَبِّكَ ٱلَّذِي خَلَقَ" },
       { "id": 2, "text": "خَلَقَ ٱلۡإِنسَٰنَ مِنۡ عَلَقٍ" },
@@ -20923,9 +20923,9 @@
   {
     "id": 97,
     "name": "القدر",
-    "transliteration": "Al-Qadr",
+    "englishName": "Al-Qadr",
     "type": "meccan",
-    "total_verses": 5,
+    "verseCount": 5,
     "verses": [
       { "id": 1, "text": "إِنَّآ أَنزَلۡنَٰهُ فِي لَيۡلَةِ ٱلۡقَدۡرِ" },
       { "id": 2, "text": "وَمَآ أَدۡرَىٰكَ مَا لَيۡلَةُ ٱلۡقَدۡرِ" },
@@ -20940,9 +20940,9 @@
   {
     "id": 98,
     "name": "البينة",
-    "transliteration": "Al-Bayyinah",
+    "englishName": "Al-Bayyinah",
     "type": "medinan",
-    "total_verses": 8,
+    "verseCount": 8,
     "verses": [
       {
         "id": 1,
@@ -20978,9 +20978,9 @@
   {
     "id": 99,
     "name": "الزلزلة",
-    "transliteration": "Az-Zalzalah",
+    "englishName": "Az-Zalzalah",
     "type": "medinan",
-    "total_verses": 8,
+    "verseCount": 8,
     "verses": [
       { "id": 1, "text": "إِذَا زُلۡزِلَتِ ٱلۡأَرۡضُ زِلۡزَالَهَا" },
       { "id": 2, "text": "وَأَخۡرَجَتِ ٱلۡأَرۡضُ أَثۡقَالَهَا" },
@@ -20998,9 +20998,9 @@
   {
     "id": 100,
     "name": "العاديات",
-    "transliteration": "Al-'Adiyat",
+    "englishName": "Al-'Adiyat",
     "type": "meccan",
-    "total_verses": 11,
+    "verseCount": 11,
     "verses": [
       { "id": 1, "text": "وَٱلۡعَٰدِيَٰتِ ضَبۡحٗا" },
       { "id": 2, "text": "فَٱلۡمُورِيَٰتِ قَدۡحٗا" },
@@ -21021,9 +21021,9 @@
   {
     "id": 101,
     "name": "القارعة",
-    "transliteration": "Al-Qari'ah",
+    "englishName": "Al-Qari'ah",
     "type": "meccan",
-    "total_verses": 11,
+    "verseCount": 11,
     "verses": [
       { "id": 1, "text": "ٱلۡقَارِعَةُ" },
       { "id": 2, "text": "مَا ٱلۡقَارِعَةُ" },
@@ -21041,9 +21041,9 @@
   {
     "id": 102,
     "name": "التكاثر",
-    "transliteration": "At-Takathur",
+    "englishName": "At-Takathur",
     "type": "meccan",
-    "total_verses": 8,
+    "verseCount": 8,
     "verses": [
       { "id": 1, "text": "أَلۡهَىٰكُمُ ٱلتَّكَاثُرُ" },
       { "id": 2, "text": "حَتَّىٰ زُرۡتُمُ ٱلۡمَقَابِرَ" },
@@ -21058,9 +21058,9 @@
   {
     "id": 103,
     "name": "العصر",
-    "transliteration": "Al-'Asr",
+    "englishName": "Al-'Asr",
     "type": "meccan",
-    "total_verses": 3,
+    "verseCount": 3,
     "verses": [
       { "id": 1, "text": "وَٱلۡعَصۡرِ" },
       { "id": 2, "text": "إِنَّ ٱلۡإِنسَٰنَ لَفِي خُسۡرٍ" },
@@ -21073,9 +21073,9 @@
   {
     "id": 104,
     "name": "الهمزة",
-    "transliteration": "Al-Humazah",
+    "englishName": "Al-Humazah",
     "type": "meccan",
-    "total_verses": 9,
+    "verseCount": 9,
     "verses": [
       { "id": 1, "text": "وَيۡلٞ لِّكُلِّ هُمَزَةٖ لُّمَزَةٍ" },
       { "id": 2, "text": "ٱلَّذِي جَمَعَ مَالٗا وَعَدَّدَهُۥ" },
@@ -21091,9 +21091,9 @@
   {
     "id": 105,
     "name": "الفيل",
-    "transliteration": "Al-Fil",
+    "englishName": "Al-Fil",
     "type": "meccan",
-    "total_verses": 5,
+    "verseCount": 5,
     "verses": [
       {
         "id": 1,
@@ -21108,9 +21108,9 @@
   {
     "id": 106,
     "name": "قريش",
-    "transliteration": "Quraysh",
+    "englishName": "Quraysh",
     "type": "meccan",
-    "total_verses": 4,
+    "verseCount": 4,
     "verses": [
       { "id": 1, "text": "لِإِيلَٰفِ قُرَيۡشٍ" },
       { "id": 2, "text": "إِۦلَٰفِهِمۡ رِحۡلَةَ ٱلشِّتَآءِ وَٱلصَّيۡفِ" },
@@ -21124,9 +21124,9 @@
   {
     "id": 107,
     "name": "الماعون",
-    "transliteration": "Al-Ma'un",
+    "englishName": "Al-Ma'un",
     "type": "meccan",
-    "total_verses": 7,
+    "verseCount": 7,
     "verses": [
       { "id": 1, "text": "أَرَءَيۡتَ ٱلَّذِي يُكَذِّبُ بِٱلدِّينِ" },
       { "id": 2, "text": "فَذَٰلِكَ ٱلَّذِي يَدُعُّ ٱلۡيَتِيمَ" },
@@ -21140,9 +21140,9 @@
   {
     "id": 108,
     "name": "الكوثر",
-    "transliteration": "Al-Kawthar",
+    "englishName": "Al-Kawthar",
     "type": "meccan",
-    "total_verses": 3,
+    "verseCount": 3,
     "verses": [
       { "id": 1, "text": "إِنَّآ أَعۡطَيۡنَٰكَ ٱلۡكَوۡثَرَ" },
       { "id": 2, "text": "فَصَلِّ لِرَبِّكَ وَٱنۡحَرۡ" },
@@ -21152,9 +21152,9 @@
   {
     "id": 109,
     "name": "الكافرون",
-    "transliteration": "Al-Kafirun",
+    "englishName": "Al-Kafirun",
     "type": "meccan",
-    "total_verses": 6,
+    "verseCount": 6,
     "verses": [
       { "id": 1, "text": "قُلۡ يَـٰٓأَيُّهَا ٱلۡكَٰفِرُونَ" },
       { "id": 2, "text": "لَآ أَعۡبُدُ مَا تَعۡبُدُونَ" },
@@ -21167,9 +21167,9 @@
   {
     "id": 110,
     "name": "النصر",
-    "transliteration": "An-Nasr",
+    "englishName": "An-Nasr",
     "type": "medinan",
-    "total_verses": 3,
+    "verseCount": 3,
     "verses": [
       { "id": 1, "text": "إِذَا جَآءَ نَصۡرُ ٱللَّهِ وَٱلۡفَتۡحُ" },
       {
@@ -21185,9 +21185,9 @@
   {
     "id": 111,
     "name": "المسد",
-    "transliteration": "Al-Masad",
+    "englishName": "Al-Masad",
     "type": "meccan",
-    "total_verses": 5,
+    "verseCount": 5,
     "verses": [
       { "id": 1, "text": "تَبَّتۡ يَدَآ أَبِي لَهَبٖ وَتَبَّ" },
       { "id": 2, "text": "مَآ أَغۡنَىٰ عَنۡهُ مَالُهُۥ وَمَا كَسَبَ" },
@@ -21199,9 +21199,9 @@
   {
     "id": 112,
     "name": "الإخلاص",
-    "transliteration": "Al-Ikhlas",
+    "englishName": "Al-Ikhlas",
     "type": "meccan",
-    "total_verses": 4,
+    "verseCount": 4,
     "verses": [
       { "id": 1, "text": "قُلۡ هُوَ ٱللَّهُ أَحَدٌ" },
       { "id": 2, "text": "ٱللَّهُ ٱلصَّمَدُ" },
@@ -21212,9 +21212,9 @@
   {
     "id": 113,
     "name": "الفلق",
-    "transliteration": "Al-Falaq",
+    "englishName": "Al-Falaq",
     "type": "meccan",
-    "total_verses": 5,
+    "verseCount": 5,
     "verses": [
       { "id": 1, "text": "قُلۡ أَعُوذُ بِرَبِّ ٱلۡفَلَقِ" },
       { "id": 2, "text": "مِن شَرِّ مَا خَلَقَ" },
@@ -21226,9 +21226,9 @@
   {
     "id": 114,
     "name": "الناس",
-    "transliteration": "An-Nas",
+    "englishName": "An-Nas",
     "type": "meccan",
-    "total_verses": 6,
+    "verseCount": 6,
     "verses": [
       { "id": 1, "text": "قُلۡ أَعُوذُ بِرَبِّ ٱلنَّاسِ" },
       { "id": 2, "text": "مَلِكِ ٱلنَّاسِ" },
