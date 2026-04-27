@@ -1,5 +1,7 @@
 import type { QuizQuestion } from "../../types/quizTypes";
+import type { Chapter } from "../../types/quranTypes";
 import MultipleChoiceInput from "./MultipleChoiceInput";
+import SearchSelectAnswer from "./SearchSelectAnswer";
 import TextInputAnswer from "./TextInputAnswer";
 
 type Props = {
@@ -7,6 +9,7 @@ type Props = {
 	selectedAnswer: string;
 	onAnswerChange: (value: string) => void;
 	disabled?: boolean;
+    chapters?: Chapter[];
 };
 
 export default function QuestionCard({
@@ -14,6 +17,7 @@ export default function QuestionCard({
 	selectedAnswer,
 	onAnswerChange,
 	disabled = false,
+    chapters = [],
 }: Props) {
 	return (
 		<div
@@ -36,6 +40,15 @@ export default function QuestionCard({
 
 			{question.answerType === "typing" && (
 				<TextInputAnswer
+					value={selectedAnswer}
+					onChange={onAnswerChange}
+					disabled={disabled}
+				/>
+			)}
+
+			{question.answerType === "search-select" && (
+				<SearchSelectAnswer
+					chapters={chapters}
 					value={selectedAnswer}
 					onChange={onAnswerChange}
 					disabled={disabled}

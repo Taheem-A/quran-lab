@@ -1,4 +1,4 @@
-export type AnswerType = "multiple-choice" | "typing";
+export type AnswerType = "multiple-choice" | "typing" | "search-select";
 
 export type QuizQuestion = {
     id: string;
@@ -6,5 +6,6 @@ export type QuizQuestion = {
     answerType: AnswerType;
     options?: string[];
     correctAnswer: string;
+    correctAnswerId?: number;
     explanation?: string;
 };

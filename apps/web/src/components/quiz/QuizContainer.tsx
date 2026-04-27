@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { sampleQuizQuestions } from "../../data/sampleQuizQuestions";
 import { checkAnswer } from "../../utils/checkAnswer";
 
 import QuestionCard from "./QuestionCard";
 import QuizFeedback from "./QuizFeedback";
 import QuizProgress from "./QuizProgress";
+import type { Chapter } from "../../types/quranTypes";
 
 export default function QuizContainer() {
 	const questions = sampleQuizQuestions;
@@ -14,8 +15,19 @@ export default function QuizContainer() {
 	const [isSubmitted, setIsSubmitted] = useState(false);
 	const [isCorrect, setIsCorrect] = useState(false);
 	const [score, setScore] = useState(0);
+    const [chapters, setChapters] = useState<Chapter[]>([]);
 
 	const currentQuestion = questions[currentIndex];
+
+    useEffect(() => {
+        fetch("http://localhost:3000/api/quran/chapters")
+        .then((res) => {
+            if (!res.ok) throw new Error("Network response was not ok");
+            return res.json();
+        })
+        .then((data) => setChapters(data))
+        .catch((err) => console.error("Failed to fetch chapters:", err));
+    }, []);
 
 	function handleSubmit() {
 		if (!selectedAnswer) return;
@@ -61,6 +73,7 @@ export default function QuizContainer() {
 				selectedAnswer={selectedAnswer}
 				onAnswerChange={setSelectedAnswer}
 				disabled={isSubmitted}
+				chapters={chapters}
 			/>
 
 			{!isSubmitted ? (
