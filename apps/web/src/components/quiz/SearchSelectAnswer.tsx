@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import type { Chapter } from "../../types/quranTypes";
 
 type Props = {
@@ -15,6 +15,10 @@ export default function SearchSelectAnswer({
 	disabled = false,
 }: Props) {
 	const [searchText, setSearchText] = useState(value);
+
+    useEffect(() => {
+        setSearchText(value);
+    }, [value]);
 
 	const filteredChapters = chapters
 		.filter((chapter) =>

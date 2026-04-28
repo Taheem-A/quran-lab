@@ -6,6 +6,7 @@ export type QuizQuestion = {
     answerType: AnswerType;
     options?: string[];
     correctAnswer: string;
+    acceptableAnswers?: string[];
     correctAnswerId?: number;
     explanation?: string;
 };
