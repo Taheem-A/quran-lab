@@ -36,13 +36,13 @@ function createReverseVerseCountQuestion(
 }
 
 function createRevelationLocationQuestion(chapter: Chapter): QuizQuestion {
-	const correctAnswer = chapter.type === "meccan" ? "Meccan" : "Medinan";
+	const correctAnswer = chapter.type === "meccan" ? "Makkah" : "Medinah";
 
 	return {
 		id: `revelation-location-${chapter.id}`,
 		prompt: `Was Surah ${chapter.englishName} revealed in Makkah or Madinah?`,
 		answerType: "multiple-choice",
-		options: ["Meccan", "Medinan"],
+		options: ["Makkah", "Medinah"],
 		correctAnswer,
 		explanation: `Surah ${chapter.englishName} is ${correctAnswer}.`,
 	};
