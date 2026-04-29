@@ -69,6 +69,7 @@ export default function QuizContainer() {
 					Final Score: {score} / {questions.length}
 				</p>
 				<button
+					className="btn btn-secondary"
 					onClick={() => {
 						setCurrentIndex(0);
 						setScore(0);
@@ -90,22 +91,19 @@ export default function QuizContainer() {
 				total={questions.length}
 				score={score}
 			/>
-            
-            {currentQuestion && (
+
+			{(currentQuestion && (
 				<QuestionCard
 					question={currentQuestion}
 					selectedAnswer={selectedAnswer}
 					onAnswerChange={setSelectedAnswer}
 					disabled={isSubmitted}
-				    chapters={chapters}
-			    />
-            ) || <p>Loading question...</p>}
+					chapters={chapters}
+				/>
+			)) || <p>Loading question...</p>}
 
 			{!isSubmitted ? (
-				<button
-					onClick={handleSubmit}
-					style={{ marginTop: "15px", padding: "10px 20px" }}
-				>
+				<button className="btn btn-primary" onClick={handleSubmit}>
 					Submit
 				</button>
 			) : (
@@ -116,10 +114,7 @@ export default function QuizContainer() {
 						explanation={currentQuestion.explanation}
 					/>
 
-					<button
-						onClick={handleNext}
-						style={{ marginTop: "15px", padding: "10px 20px" }}
-					>
+					<button className="btn btn-primary" onClick={handleNext}>
 						Next
 					</button>
 				</>

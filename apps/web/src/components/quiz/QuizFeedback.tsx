@@ -10,26 +10,21 @@ export default function QuizFeedback({
 	explanation,
 }: Props) {
 	return (
-		<div style={{ marginTop: "15px" }}>
-			<p
-				style={{
-					fontWeight: "bold",
-					color: isCorrect ? "green" : "red",
-				}}
-			>
+		<div className={`feedback ${isCorrect ? "correct" : "wrong"}`}>
+			<div className="feedback-title">
 				{isCorrect ? "Correct!" : "Incorrect"}
-			</p>
+			</div>
 
 			{!isCorrect && (
-				<p>
+				<div className="feedback-answer">
 					Correct answer: <strong>{correctAnswer}</strong>
-				</p>
+				</div>
 			)}
 
 			{explanation && (
-				<p style={{ marginTop: "5px", fontStyle: "italic" }}>
+				<div className="feedback-explanation">
 					{explanation}
-				</p>
+				</div>
 			)}
 		</div>
 	);

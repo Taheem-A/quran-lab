@@ -8,6 +8,10 @@ export default function ChapterDetailsPage() {
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState("");
 
+    function toArabicNumber(num: number) {
+		return num.toString().replace(/\d/g, (d) => "٠١٢٣٤٥٦٧٨٩"[+d]);
+	}
+
     useEffect(() => {
         if (!id) return;
 
@@ -31,23 +35,33 @@ export default function ChapterDetailsPage() {
     if (!chapter) return <p>Chapter not found</p>;
 
     return (
-		<div>
-			<Link to="/">← Back to all surahs</Link>
+		<div className="container">
+			<Link className="back-link" to="/">
+				← Back
+			</Link>
 
-			<h1>
-				{chapter.id}. {chapter.englishName}
-			</h1>
-			<h2>{chapter.name}</h2>
-			<p>{chapter.type}</p>
-			<p>{chapter.verseCount} verses</p>
-
-			<hr />
-
-			{chapter.verses.map((verse) => (
-				<p key={verse.id}>
-					<strong>{verse.id}.</strong> {verse.text}
+			<div className="card">
+				<h1>
+					{chapter.id}. {chapter.englishName}
+				</h1>
+				<h2 style={{ fontSize: "24px" }}>{chapter.name}</h2>
+				<p>
+					<em>{chapter.type}</em> • {chapter.verseCount} verses
 				</p>
-			))}
+			</div>
+
+			<div style={{ marginTop: "20px" }}>
+				{chapter.verses.map((verse) => (
+					<div key={verse.id} className="card">
+						<p className="arabic">
+							{verse.text}
+							<span className="ayah-marker">
+								۝{toArabicNumber(verse.id)}
+							</span>
+						</p>
+					</div>
+				))}
+			</div>
 		</div>
 	);
 }

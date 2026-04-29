@@ -27,16 +27,19 @@ export default function ChapterListPage() {
 	if (error) return <p>Error: {error}</p>;
 
 	return (
-		<div>
+		<div className="container">
 			<h1>All Chapters</h1>
-			{chapters.map((chapter) => (
-				<div key={chapter.id}>
-					<Link to={`/chapter/${chapter.id}`}>
-						{chapter.id}. {chapter.englishName}
+			
+			<div className="chapter-list">
+				{chapters.map((chapter) => (
+					<Link key={chapter.id} to={`/chapter/${chapter.id}`}>
+						<div className="chapter-card">
+							<strong>{chapter.id}. {chapter.englishName}</strong>
+							<p>{chapter.name}</p>
+						</div>
 					</Link>
-					<p>{chapter.name}</p>
-				</div>
-			))}
+				))}
+			</div>
 		</div>
 	);
 }

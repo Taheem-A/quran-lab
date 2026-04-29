@@ -20,13 +20,7 @@ export default function QuestionCard({
     chapters = [],
 }: Props) {
 	return (
-		<div
-			style={{
-				padding: "20px",
-				border: "1px solid #ddd",
-				borderRadius: "10px",
-			}}
-		>
+		<div className="card quiz-card">
 			<h2>{question.prompt}</h2>
 
 			{question.answerType === "multiple-choice" && question.options && (
@@ -34,7 +28,7 @@ export default function QuestionCard({
 					options={question.options}
 					selectedAnswer={selectedAnswer}
 					onSelect={onAnswerChange}
-					disabled={disabled}
+					// disabled={disabled}
 				/>
 			)}
 
