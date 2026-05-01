@@ -9,7 +9,7 @@ type Props = {
 	selectedAnswer: string;
 	onAnswerChange: (value: string) => void;
 	disabled?: boolean;
-    chapters?: Chapter[];
+	chapters?: Chapter[];
 };
 
 export default function QuestionCard({
@@ -17,10 +17,10 @@ export default function QuestionCard({
 	selectedAnswer,
 	onAnswerChange,
 	disabled = false,
-    chapters = [],
+	chapters = [],
 }: Props) {
 	return (
-		<div className="card quiz-card">
+		<div className="card question-card">
 			<h2>{question.prompt}</h2>
 
 			{question.answerType === "multiple-choice" && question.options && (
@@ -28,7 +28,7 @@ export default function QuestionCard({
 					options={question.options}
 					selectedAnswer={selectedAnswer}
 					onSelect={onAnswerChange}
-					// disabled={disabled}
+					disabled={disabled}
 				/>
 			)}
 

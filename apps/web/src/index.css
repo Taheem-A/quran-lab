@@ -42,10 +42,10 @@ a {
 /* Fonts */
 .arabic {
 	font-family: "Scheherazade New", serif;
-	font-size: 22px;
+	font-size: 26px;
 	direction: rtl;
 	text-align: right;
-	line-height: 1.8;
+	line-height: 2.2;
 }
 
 /* Layout */
@@ -131,21 +131,39 @@ a {
 
 /* Quiz */
 
-.quiz-card {
+.quiz-page-title {
+  text-align: center;
+}
+
+.question-card {
 	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.multiple-choice-options {
+  display: flex;
+  flex-direction: column;
 }
 
 .option {
+	margin: 5px 0;
 	padding: 12px;
-	border-radius: var(--radius-sm);
+	border-radius: var(--radius-sm);  
 	border: 1px solid var(--border);
 	background: #f9fafb;
 	cursor: pointer;
 }
 
 .option.selected {
-	background: var(--primary);
+	background: var(--accent);
 	color: white;
+}
+
+.option:disabled {
+  cursor: not-allowed;
+  opacity: 0.8;
 }
 
 .input {
@@ -155,10 +173,17 @@ a {
 	border: 1px solid var(--border);
 }
 
+.quiz-card {
+  max-width: 600px;
+  margin: 5px auto;
+  padding: 20px;
+  text-align: center;
+}
+
 /* Feedback */
 
 .feedback {
-	margin-top: 20px;
+	margin: 20px 0;
 	padding: 15px;
 	border-radius: var(--radius);
 	border: 1px solid var(--border);
@@ -189,6 +214,15 @@ a {
 	color: var(--muted);
 }
 
+/* Quiz Progress */
+.progress {
+	margin: 20px 0;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bold;
+	color: var(--muted);
+}
+
 /* Buttons */
 .btn {
 	padding: 12px 18px;
@@ -202,6 +236,7 @@ a {
 .btn-primary {
 	background: var(--primary);
 	color: white;
+	width: 100%;
 }
 
 .btn-primary:hover {
@@ -214,6 +249,36 @@ a {
 
 .btn-secondary:hover {
 	background: #e5e7eb;
+}
+
+.search-select-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg);
+  cursor: pointer;
+}
+
+
+/* Search Select */
+.search-select-container {
+  position: relative;
+}
+
+.search-select-dropdown {
+  margin-top: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+
+.no-results {
+  padding: 10px;
+  margin: 0;
+  color: var(--muted);
 }
 
 /* Back link */

@@ -63,7 +63,7 @@ export default function QuizContainer() {
 
 	if (isFinished) {
 		return (
-			<div style={{ padding: "20px" }}>
+			<div className="card quiz-card">
 				<h2>Quiz Complete!</h2>
 				<p>
 					Final Score: {score} / {questions.length}
@@ -85,7 +85,7 @@ export default function QuizContainer() {
 	}
 
 	return (
-		<div style={{ maxWidth: "600px", margin: "0 auto", padding: "20px" }}>
+		<div className="quiz-card">
 			<QuizProgress
 				current={currentIndex + 1}
 				total={questions.length}

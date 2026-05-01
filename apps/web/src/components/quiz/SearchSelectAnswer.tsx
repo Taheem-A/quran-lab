@@ -39,55 +39,32 @@ export default function SearchSelectAnswer({
 	}
 
 	return (
-		<div style={{ position: "relative" }}>
+		<div className="search-select-container">
 			<input
+				className="input"
 				type="text"
 				value={searchText}
 				onChange={(event) => handleInputChange(event.target.value)}
 				disabled={disabled}
 				placeholder="Search for a surah..."
-				style={{
-					width: "100%",
-					padding: "10px",
-					border: "1px solid #ccc",
-					borderRadius: "6px",
-					fontSize: "16px",
-				}}
 			/>
 
 			{searchText && !disabled && value === "" && (
-				<div
-					style={{
-						marginTop: "8px",
-						border: "1px solid #ccc",
-						borderRadius: "6px",
-						overflow: "hidden",
-					}}
-				>
+				<div className="search-select-dropdown">
 					{filteredChapters.length > 0 ? (
 						filteredChapters.map((chapter) => (
-							<button
+							<button className="search-select-btn"
 								key={chapter.id}
 								type="button"
 								onClick={() =>
 									handleSelect(chapter.englishName)
 								}
-								style={{
-									display: "block",
-									width: "100%",
-									padding: "10px",
-									textAlign: "left",
-									border: "none",
-									borderBottom: "1px solid #eee",
-									backgroundColor: "white",
-									cursor: "pointer",
-								}}
 							>
-								{chapter.id}. {chapter.englishName}
+								{chapter.englishName}
 							</button>
 						))
 					) : (
-						<p style={{ padding: "10px", margin: 0 }}>
+						<p className="no-results">
 							No matching surahs.
 						</p>
 					)}

@@ -7,7 +7,7 @@ export default function App() {
 	return (
 		<div className="app-shell">
 			<header className="site-header">
-				<div className="brand">Qu'ran Lab</div>
+				<div className="brand">Qur'an Lab</div>
 				<nav className="site-nav">
 					<Link to="/">Chapters</Link>
 					<Link to="/quiz">Quiz</Link>

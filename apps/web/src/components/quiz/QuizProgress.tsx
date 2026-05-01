@@ -6,14 +6,7 @@ type Props = {
 
 export default function QuizProgress({ current, total, score }: Props) {
 	return (
-		<div
-			style={{
-				marginBottom: "20px",
-				display: "flex",
-				justifyContent: "space-between",
-				fontWeight: "bold",
-			}}
-		>
+		<div className="progress">
 			<span>
 				Question {current} / {total}
 			</span>

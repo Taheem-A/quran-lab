@@ -44,7 +44,7 @@ function createRevelationLocationQuestion(chapter: Chapter): QuizQuestion {
 		answerType: "multiple-choice",
 		options: ["Makkah", "Medinah"],
 		correctAnswer,
-		explanation: `Surah ${chapter.englishName} is ${correctAnswer}.`,
+		explanation: `Surah ${chapter.englishName} is ${chapter.type.charAt(0).toUpperCase() + chapter.type.slice(1)}.`,
 	};
 }
 

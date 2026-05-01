@@ -44,18 +44,18 @@ export default function ChapterDetailsPage() {
 				<h1>
 					{chapter.id}. {chapter.englishName}
 				</h1>
-				<h2 style={{ fontSize: "24px" }}>{chapter.name}</h2>
+				<h2>{chapter.name}</h2>
 				<p>
 					<em>{chapter.type}</em> • {chapter.verseCount} verses
 				</p>
 			</div>
 
-			<div style={{ marginTop: "20px" }}>
+			<div>
 				{chapter.verses.map((verse) => (
 					<div key={verse.id} className="card">
 						<p className="arabic">
 							{verse.text}
-							<span className="ayah-marker">
+							<span>
 								۝{toArabicNumber(verse.id)}
 							</span>
 						</p>

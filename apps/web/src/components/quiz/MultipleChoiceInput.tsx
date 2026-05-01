@@ -8,21 +8,24 @@ type Props = {
 export default function MultipleChoiceInput({
 	options,
 	selectedAnswer,
-	onSelect
+	onSelect,
+	disabled = false,
 }: Props) {
 	return (
-		<div>
+		<div className="multiple-choice-options">
 			{options.map((option) => {
 				const isSelected = selectedAnswer === option;
 
 				return (
-					<div
+					<button 
 						key={option}
 						className={`option ${isSelected ? "selected" : ""}`}
 						onClick={() => onSelect(option)}
+						disabled={disabled}
+						type="button"
 					>
 						{option}
-					</div>
+					</button>
 				);
 			})}
 		</div>
