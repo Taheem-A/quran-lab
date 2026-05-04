@@ -8,7 +8,7 @@ export default function ChapterListPage() {
 	const [error, setError] = useState("");
 
 	useEffect(() => {
-		fetch("http://localhost:3000/api/quran/chapters")
+		fetch(`${import.meta.env.VITE_API_URL}/api/quran/chapters`)
 			.then((res) => {
 				if (!res.ok) throw new Error("Failed to fetch chapters");
 				return res.json();

@@ -14,8 +14,7 @@ export default function ChapterDetailsPage() {
 
     useEffect(() => {
         if (!id) return;
-
-        fetch(`http://localhost:3000/api/quran/chapter/${id}`)
+        fetch(`${import.meta.env.VITE_API_URL}/api/quran/chapter/${id}`)
             .then((res) => {
                 if (!res.ok) throw new Error("Failed to fetch chapter details");
                 return res.json();

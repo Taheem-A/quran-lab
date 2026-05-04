@@ -22,7 +22,7 @@ export default function QuizContainer() {
 	const currentQuestion = questions[currentIndex];
 
     useEffect(() => {
-        fetch("http://localhost:3000/api/quran/chapters")
+		fetch(`${import.meta.env.VITE_API_URL}/api/quran/chapters`)
         .then((res) => {
             if (!res.ok) throw new Error("Network response was not ok");
             return res.json();
